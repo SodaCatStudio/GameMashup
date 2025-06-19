@@ -4,4 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "flask-cors==5.0.0",
+    "flask==3.1.0",
+    "python-dotenv==1.0.1",
+    "gunicorn==23.0.0",
+    "httpx==0.28.1",
+    "openai==1.57.0",
+]
