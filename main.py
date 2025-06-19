@@ -214,7 +214,7 @@ def use_page():
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #00d4ff 0%, #e74c3c 100%);
             min-height: 100vh;
         }
         .container {
@@ -224,7 +224,7 @@ def use_page():
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
         h1 {
-            color: #667eea;
+            color: #00b8d4;
             text-align: center;
             margin-bottom: 10px;
             font-size: 2.5em;
@@ -257,8 +257,8 @@ def use_page():
         }
         input:focus, textarea:focus {
             outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 10px rgba(102, 126, 234, 0.2);
+            border-color: #00b8d4;
+            box-shadow: 0 0 10px rgba(0, 184, 212, 0.2);
         }
         textarea {
             height: 120px;
@@ -278,7 +278,7 @@ def use_page():
         }
         .game-section h3 {
             margin-top: 0;
-            color: #667eea;
+            color: #00b8d4;
             display: flex;
             align-items: center;
             gap: 10px;
@@ -287,7 +287,7 @@ def use_page():
             text-align: center;
             font-size: 2em;
             font-weight: bold;
-            color: #667eea;
+            color: #e74c3c;
             margin: 20px 0;
             display: flex;
             align-items: center;
@@ -297,12 +297,12 @@ def use_page():
         .vs-divider::after {
             content: '';
             height: 2px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #00d4ff 0%, #e74c3c 100%);
             flex: 1;
             margin: 0 20px;
         }
         .btn {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #00d4ff 0%, #e74c3c 100%);
             color: white;
             padding: 18px 40px;
             border: none;
@@ -318,7 +318,7 @@ def use_page():
         }
         .btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 8px 25px rgba(0, 212, 255, 0.3);
         }
         .btn:disabled {
             opacity: 0.6;
@@ -342,27 +342,27 @@ def use_page():
             border: 2px solid #f5c6cb;
         }
         .info {
-            background: #d1ecf1;
-            color: #0c5460;
-            border: 2px solid #bee5eb;
+            background: #e1f7ff;
+            color: #006064;
+            border: 2px solid #b3e5fc;
         }
         .loading {
             text-align: center;
             padding: 30px;
-            color: #667eea;
+            color: #00b8d4;
             font-size: 18px;
         }
         .mashup-result {
             background: #f8f9fa;
-            border: 3px solid #667eea;
+            border: 3px solid #00b8d4;
             border-radius: 15px;
             padding: 30px;
             margin-top: 30px;
         }
         .mashup-result h2 {
-            color: #667eea;
+            color: #00b8d4;
             margin-top: 0;
-            border-bottom: 3px solid #667eea;
+            border-bottom: 3px solid #00b8d4;
             padding-bottom: 15px;
             font-size: 1.8em;
         }
@@ -387,7 +387,7 @@ def use_page():
             margin-bottom: 40px;
         }
         .intro-section h3 {
-            color: #667eea;
+            color: #00b8d4;
             margin-bottom: 15px;
             font-size: 1.5em;
         }
@@ -402,7 +402,7 @@ def use_page():
             background: white;
             padding: 20px;
             border-radius: 10px;
-            border-left: 5px solid #667eea;
+            border-left: 5px solid #00b8d4;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         .example-section {
